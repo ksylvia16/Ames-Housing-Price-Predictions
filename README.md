@@ -17,8 +17,8 @@ Due to the scale of this project, it is split into two Jupyter notebooks: [01 ED
 
 **Provided Data**
 
-* [train.csv](http://localhost:8888/doc/tree/submissions_614/Projects/project_2/datasets/given/train.csv)
-* [test.csv](http://localhost:8888/doc/tree/submissions_614/Projects/project_2/datasets/given/test.csv)
+* [train.csv](https://github.com/ksylvia16/Ames-Housing-Price-Predictions/blob/78e7082fcafece5d157157f0fa0773b0225cc30b/datasets/given/test.csv)
+* [test.csv](https://github.com/ksylvia16/Ames-Housing-Price-Predictions/blob/78e7082fcafece5d157157f0fa0773b0225cc30b/datasets/given/train.csv)
 
 **Data Dictionary**
 
