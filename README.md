@@ -9,7 +9,7 @@ Using a housing dataset from Ames, Iowa, I've attempted to create a linear regre
 
 In this project, my goals were to create both a high performing and extremely generalizable model. This means the model should react to unseen sets of data without large variations in accuracy. Ultimately, I'll be looking to evaluate the performance of this model using root mean squared error (RMSE) or the measure of the differences between values predicted by the model and the values observed.
 
-Due to the scale of this project, it is split into two Jupyter notebooks: [01 EDA and Data Cleaning](http://localhost:8888/doc/tree/submissions_614/Projects/project_2/code/01_EDA_and_Cleaning.ipynb) and [02 Feature Engineering and Modeling](http://localhost:8888/doc/tree/submissions_614/Projects/project_2/code/02_Feature_Engineering_%26_Modeling.ipynb).
+Due to the scale of this project, it is split into two Jupyter notebooks: [01 EDA and Data Cleaning](https://github.com/ksylvia16/Ames-Housing-Price-Predictions/blob/e6164434e725126b8d6a253eaaea5167bbe5436e/code/01_EDA_and_Cleaning.ipynb) and [02 Feature Engineering and Modeling](https://github.com/ksylvia16/Ames-Housing-Price-Predictions/blob/e6164434e725126b8d6a253eaaea5167bbe5436e/code/02_Feature_Engineering_%26_Modeling.ipynb).
 
 ---
 
@@ -32,7 +32,7 @@ The different regression models used included: 1. Linear Regression; 2. Lasso Re
 
 The ridge regression model had the best predictive performance on housing sale price in Ames, Iowa, and outperformed the other linear models tested. The model revealed that Overall, Exterior, and Kitchen Quality have a high correlation with the sale price of a home. Also, categorical features that had a high correlation with sale price were poured concrete foundation, having a finished garage, and having vinyl siding for exterior covering. Features that decrease the sale price of a home include an unfinished garage, a home located within 200' of East-West Railroad, roof material of gravel and tar, and a low depression land contour.
 
-![Predicted Price vs. Actual Price](http://localhost:8888/doc/tree/submissions_614/Projects/project_2/images/actual_vs_predicted.png)
+![Predicted Price vs. Actual Price](https://github.com/ksylvia16/Ames-Housing-Price-Predictions/blob/79922a61082f7706adce773fcbca8988de00b8ce/images/actual_vs_predicted.png)
 
 Using this final model, I am able to account for approximately 92.2% of the variation in Sale Price. With a 71% improvement from the base model, my model proves to be an efficient method of determining sale prices of homes in Ames, Iowa. With more time, an adjustment to the model would be made to increase the accuracy of predicting the sale prices in more expensive homes.
 
